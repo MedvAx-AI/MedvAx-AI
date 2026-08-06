@@ -94,10 +94,6 @@ For serious ML projects, I try to include:
 
 <div align="center">
 
-<a href="https://git.io/streak-stats">
-  <img width="62%" alt="GitHub Streak" src="https://streak-stats.demolab.com?user=BearAx&theme=dark&hide_border=true&ring=FF8A00&fire=FF8A00&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF8A00&sideLabels=9CA3AF&dates=9CA3AF" />
-</a>
-
 <br />
 
 <img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=BearAx&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Graph" />
