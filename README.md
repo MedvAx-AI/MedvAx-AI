@@ -98,9 +98,4 @@ For serious ML projects, I try to include:
 
 <img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=BearAx&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Graph" />
 
-<br />
-
-<img width="46%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=BearAx&theme=github_dark" />
-<img width="46%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=BearAx&theme=github_dark" />
-
 </div>
