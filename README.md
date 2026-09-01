@@ -96,6 +96,6 @@ For serious ML projects, I try to include:
 
 <br />
 
-<img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=BearAx&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Graph" />
+<img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=MedvAx-AI&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Graph" />
 
 </div>
