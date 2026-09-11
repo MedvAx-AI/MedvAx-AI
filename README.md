@@ -7,7 +7,7 @@
 
 I improve AI models where **quality meets systems**: reproducible experiments, controlled ablations, robust evaluation, and training/inference optimization for speed, memory, and cost.
 
-<a href="linkedin.com/in/aleksandr-medvedev-255304436">LinkedIn</a> ·
+<a href="www.linkedin.com/in/medvax-ai">LinkedIn</a> ·
 <a href="cv.pdf">CV</a>
 
 </div>
