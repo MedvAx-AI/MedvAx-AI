@@ -1,0 +1,30 @@
+name: Update GitHub activity graphs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 6 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate graphs from GitHub contributions
+        run: python3 scripts/update_activity.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit changed graphs
+        run: |
+          if git diff --quiet -- assets/github-contributions.svg assets/github-monthly.svg; then
+            echo "Graphs are current"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-contributions.svg assets/github-monthly.svg
+          git commit -m "Refresh GitHub activity graphs"
+          git push
