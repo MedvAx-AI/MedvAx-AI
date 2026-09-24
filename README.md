@@ -1,101 +1,54 @@
-<div align="center">
-
 # Aleksandr Medvedev
 
-**ML Research Engineer / ML Systems Engineer**  
-**Model Quality · Efficient Training · Evaluation · PyTorch Systems**
+**Applied AI student at Innopolis University · LLM evaluation · semantic search · reproducible ML**
 
-I improve AI models where **quality meets systems**: reproducible experiments, controlled ablations, robust evaluation, and training/inference optimization for speed, memory, and cost.
+I build ML systems and test their claims against held-out data, clear baselines, and measured costs. My recent work covers local language-model routing, natural-language search in 3D scenes, and an end-to-end MLOps pipeline.
 
-<a href="www.linkedin.com/in/medvax-ai">LinkedIn</a> ·
-<a href="cv.pdf">CV</a>
+[Portfolio](https://medvax-ai.github.io/) · [Email](mailto:medvedguk@gmail.com) · [ORCID](https://orcid.org/0009-0008-9941-4428)
 
-</div>
+## Selected projects
 
----
+### [SemanticSplat — graph-pruned search for 3D digital twins](https://beyond-proximity-public.vercel.app/)
 
-## Operating principle
+Team research on grounding natural-language queries in captured 3D scene evidence. A semantic hierarchy narrows candidate objects and views before retrieval. The [live project site](https://beyond-proximity-public.vercel.app/) includes the method, paper, dataset manifests, frozen metrics, and reproduction steps.
 
-> If I claim an ML improvement, it should have a baseline, an ablation, a metric, and a cost.
+- Evaluated graph traversal against flat search on **five team-captured scenes and 150 queries** using the same semantic records and scorer.
+- Graph traversal checked **75.5% fewer views** and used **68.2% fewer estimated context tokens** on average.
+- The tradeoff is visible: on **125 queries with verified view labels**, graph hit@1 was **0.680** versus **0.768** for flat search. The current result supports lower retrieval cost, not better hit accuracy.
 
-I am focused on practical AI improvement: making models **better, more stable, faster, and cheaper to run** through disciplined experimentation and systems-aware engineering.
+![Five-scene SemanticSplat comparison: graph search uses fewer views and estimated context tokens, while flat search has higher hit accuracy.](assets/semanticsplat-five-scene-summary.png)
 
----
+*Results figure from the [SemanticSplat project site](https://beyond-proximity-public.vercel.app/#results). [Read the paper](https://beyond-proximity-public.vercel.app/assets/semanticsplat-paper.pdf) or [inspect the frozen metrics](https://beyond-proximity-public.vercel.app/data/internal-metrics.json).*
 
-## What I work on
+### [BudgetRoute-LLM — quality-aware local model routing](https://github.com/MedvAx-AI/budgetroute-llm)
 
-<table>
-  <tr>
-    <td><b>Model Quality</b></td>
-    <td>training recipes, fine-tuning, robustness, calibration, data-centric improvements</td>
-  </tr>
-  <tr>
-    <td><b>ML Systems Efficiency</b></td>
-    <td>profiling, AMP, torch.compile, batching, checkpointing, latency, throughput, memory</td>
-  </tr>
-  <tr>
-    <td><b>Research Engineering</b></td>
-    <td>baselines, ablations, multi-seed evaluation, tracked configs, reproducible reports</td>
-  </tr>
-</table>
+A research implementation combining small/large language-model selection, retrieval, confidence cascades, abstention, a FastAPI service, and reproducible evaluation.
 
----
+- Collected **500 paired MMLU examples** for Qwen2.5-0.5B/1.5B, with **100 untouched held-out questions** for the routing comparison.
+- Measured accuracy, latency, route share, and calibration. The learned router scored **51%** versus **53%** for always-large on the held-out set, with **no latency gain**. The negative result is documented rather than presented as a win.
+- Added traceable semantic retrieval with dense embeddings, FAISS exact/HNSW search, source metadata, and document/chunk IDs.
 
-## Current portfolio direction
+[Repository](https://github.com/MedvAx-AI/budgetroute-llm) · [Held-out benchmark and limitations](https://github.com/MedvAx-AI/budgetroute-llm/blob/main/reports/benchmarks/qwen25-mmlu-500-learned-rtx3060.md)
 
-| Project | Focus | What it demonstrates |
-|---|---|---|
-| **ml-systems-lab** | Training/inference efficiency | Profiling PyTorch workloads, measuring latency/throughput/memory, reducing cost with AMP, compile, batching, checkpointing |
-| **vision-recipe-bench** | Model quality through training recipes | Controlled ablations for optimizer, LR schedule, augmentation, EMA, regularization, robustness, calibration |
-| **small-lm-lab** | Small Transformer LM training | Tokenization, sequence packing, perplexity, training loop discipline, efficiency-quality trade-offs |
-| **nlp-ft-discipline** | Fine-tuning stability | Seed variance, calibration, validation hygiene, robust evaluation for Transformer classifiers |
+### [Yacht Resistance MLOps Pipeline — data to serving](https://github.com/MedvAx-AI/pmldl-yacht-mlops)
 
----
+An academic ML pipeline that prepares data, trains an Extra Trees regressor, tracks runs with DVC and MLflow, and serves predictions through FastAPI and Streamlit in Docker.
 
-## Tech stack
+- Used hull-grouped train/test splits to evaluate on **70 observations from five unseen hulls**: held-out **RMSE 1.280** and **R² 0.993**.
+- Verified the pipeline, model lineage, and deployed services with **10 automated tests in CI**.
 
-**Core ML:** Python, PyTorch, Transformers, CNNs, small LMs  
-**Experimentation:** W&B / MLflow, Hydra / config-driven runs, ablations, multi-seed evaluation  
-**Efficiency:** CUDA/NVIDIA GPUs, AMP, `torch.compile`, profiling, checkpointing, batching  
-**Engineering:** Linux, Docker, Git, GitHub Actions, reproducible pipelines
+[Repository and run instructions](https://github.com/MedvAx-AI/pmldl-yacht-mlops) · [Verification evidence](https://github.com/MedvAx-AI/pmldl-yacht-mlops/blob/main/docs/VERIFICATION.md)
 
----
+## Working with
 
-## What I am building toward
+Python, PyTorch, Hugging Face Transformers, scikit-learn, NumPy, FAISS, FastAPI, PostgreSQL, DVC, MLflow, Docker, Git, GitHub Actions, and Linux. The project links above show where I used each tool and what was measured.
 
-I am aiming for roles where I can work on the practical side of improving AI systems:
+## In progress
 
-- **ML Research Engineer Intern**
-- **ML Systems Engineer Intern**
-- **Applied ML / LLM Engineer Intern**
-- **Model Quality / Evaluation Intern**
+[Reliable Image Classification with Confidence Rejection](https://github.com/MedvAx-AI/Reliable-Image-Classification-with-Confidence-Rejection) is a team study in the planning stage. The repository currently contains the experimental protocol and work plan; it does **not** claim model results yet.
 
-My preferred work is at the intersection of:
+## Contact
 
-```text
-better models + reliable experiments + efficient training/inference
-```
+I am a third-year Applied Artificial Intelligence undergraduate based in Innopolis, Russia. I am interested in ML research, evaluation, retrieval, and applied LLM internships. I prefer remote opportunities and am open to discussing relocation.
 
----
-
-## Repository standards
-
-For serious ML projects, I try to include:
-
-- `train.py`, `eval.py`, `configs/`, `scripts/`
-- fixed seeds and reproducible configs
-- baseline + ablation table
-- training curves and metric plots
-- latency / throughput / memory measurements when relevant
-- `results.md` with what worked, what failed, and what I would try next
-
----
-## GitHub activity
-
-<div align="center">
-
-<br />
-
-<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=MedvAx-AI&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Graph" />
-
-</div>
+**Email:** [medvedguk@gmail.com](mailto:medvedguk@gmail.com)
