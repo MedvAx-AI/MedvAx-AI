@@ -31,9 +31,9 @@ I work on retrieval, model evaluation, and the engineering that makes ML experim
 
 ## GitHub activity
 
-![Daily GitHub contribution heatmap for MedvAx-AI.](assets/github-contributions.svg)
+<img src="assets/github-contributions.svg" alt="Daily GitHub contribution heatmap for MedvAx-AI" width="100%">
 
-![Monthly GitHub contribution totals for MedvAx-AI.](assets/github-monthly.svg)
+<img src="assets/github-monthly.svg" alt="Monthly GitHub contribution totals for MedvAx-AI" width="100%">
 
 ## Contact
 
