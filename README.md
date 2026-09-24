@@ -6,6 +6,10 @@ I build ML systems and test their claims against held-out data, clear baselines,
 
 [Portfolio](https://medvax-ai.github.io/) · [Email](mailto:medvedguk@gmail.com) · [ORCID](https://orcid.org/0009-0008-9941-4428)
 
+## Working with
+
+Python, PyTorch, Hugging Face Transformers, scikit-learn, NumPy, FAISS, FastAPI, PostgreSQL, DVC, MLflow, Docker, Git, GitHub Actions, and Linux. The project links below show where I used each tool and what was measured.
+
 ## Selected projects
 
 ### [SemanticSplat — graph-pruned search for 3D digital twins](https://beyond-proximity-public.vercel.app/)
@@ -55,10 +59,6 @@ An academic ML pipeline that prepares data, trains an Extra Trees regressor, tra
 *Screenshot from the [Yacht Resistance MLOps Pipeline repository](https://github.com/MedvAx-AI/pmldl-yacht-mlops/blob/main/docs/app-prediction.png).*
 
 [Repository and run instructions](https://github.com/MedvAx-AI/pmldl-yacht-mlops) · [Verification evidence](https://github.com/MedvAx-AI/pmldl-yacht-mlops/blob/main/docs/VERIFICATION.md)
-
-## Working with
-
-Python, PyTorch, Hugging Face Transformers, scikit-learn, NumPy, FAISS, FastAPI, PostgreSQL, DVC, MLflow, Docker, Git, GitHub Actions, and Linux. The project links above show where I used each tool and what was measured.
 
 ## In progress
 
