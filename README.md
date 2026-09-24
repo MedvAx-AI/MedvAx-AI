@@ -10,12 +10,6 @@ I build and evaluate ML systems, with an interest in reliable experiments, retri
 
 Python, PyTorch, Hugging Face Transformers, scikit-learn, NumPy, FAISS, FastAPI, PostgreSQL, DVC, MLflow, Docker, Git, GitHub Actions, and Linux.
 
-## GitHub activity
-
-![Daily GitHub contribution heatmap for MedvAx-AI.](assets/github-contributions.svg)
-
-![Monthly GitHub contribution totals for MedvAx-AI.](assets/github-monthly.svg)
-
 ## Selected projects
 
 - **[SemanticSplat](https://beyond-proximity-public.vercel.app/)** — natural-language search over 3D scene evidence. The live site has the method, paper, and results.
@@ -25,6 +19,12 @@ Python, PyTorch, Hugging Face Transformers, scikit-learn, NumPy, FAISS, FastAPI,
 ## In progress
 
 - **[Reliable Image Classification with Confidence Rejection](https://github.com/MedvAx-AI/Reliable-Image-Classification-with-Confidence-Rejection)** — a team study currently in the planning and experimental-protocol stage.
+  
+## GitHub activity
+
+![Daily GitHub contribution heatmap for MedvAx-AI.](assets/github-contributions.svg)
+
+![Monthly GitHub contribution totals for MedvAx-AI.](assets/github-monthly.svg)
 
 ## Contact
 
