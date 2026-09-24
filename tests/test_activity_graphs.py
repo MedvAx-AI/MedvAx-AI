@@ -19,6 +19,7 @@ class ActivityGraphTests(unittest.TestCase):
     def test_monthly_counts_cross_year_boundary(self):
         summary = summarize_calendar(SAMPLE)
         self.assertEqual(summary["total"], 3)
+        self.assertEqual(summary["active_days"], 2)
         self.assertEqual(summary["monthly"]["2025-12"], 2)
         self.assertEqual(summary["monthly"]["2026-01"], 1)
 

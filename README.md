@@ -1,10 +1,11 @@
-# Aleksandr Medvedev
+<h1 align="center">Aleksandr Medvedev</h1>
 
-**ML systems · LLM evaluation · semantic search**
+<p align="center"><strong>ML systems · LLM evaluation · semantic search</strong><br>
+Building AI systems that are useful, measurable, and reproducible.</p>
+
+<p align="center"><a href="https://medvax-ai.github.io/">Portfolio</a> · <a href="mailto:medvedguk@gmail.com">Email</a> · <a href="https://orcid.org/0009-0008-9941-4428">ORCID</a></p>
 
 I build and evaluate ML systems, with an interest in reliable experiments, retrieval, and useful AI applications.
-
-[Portfolio](https://medvax-ai.github.io/) · [Email](mailto:medvedguk@gmail.com) · [ORCID](https://orcid.org/0009-0008-9941-4428)
 
 ## Working with
 
