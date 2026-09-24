@@ -21,11 +21,9 @@ I work on retrieval, model evaluation, and the engineering that makes ML experim
 
 ## Selected projects
 
-| Project | What it does |
-| :--- | :--- |
-| **[SemanticSplat](https://beyond-proximity-public.vercel.app/)** | Natural-language search over 3D scene evidence. The live site includes the method, paper, and results. |
-| **[BudgetRoute-LLM](https://github.com/MedvAx-AI/budgetroute-llm)** | Cost-aware routing, retrieval, benchmarking, and serving for local language models. |
-| **[Yacht Resistance MLOps Pipeline](https://github.com/MedvAx-AI/pmldl-yacht-mlops)** | An automated ML pipeline with DVC, MLflow, FastAPI, and a Dockerized prediction app. |
+- **[SemanticSplat](https://beyond-proximity-public.vercel.app/)** — natural-language search over 3D scene evidence. The live site includes the method, paper, and results.
+- **[BudgetRoute-LLM](https://github.com/MedvAx-AI/budgetroute-llm)** — cost-aware routing, retrieval, benchmarking, and serving for local language models.
+- **[Yacht Resistance MLOps Pipeline](https://github.com/MedvAx-AI/pmldl-yacht-mlops)** — an automated ML pipeline with DVC, MLflow, FastAPI, and a Dockerized prediction app.
 
 ### In progress
 
