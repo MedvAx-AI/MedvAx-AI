@@ -12,8 +12,6 @@ Python, PyTorch, Hugging Face Transformers, scikit-learn, NumPy, FAISS, FastAPI,
 
 ## GitHub activity
 
-These graphs use GitHub's contribution calendar and are [refreshed weekly by GitHub Actions](.github/workflows/update-activity.yml).
-
 ![Daily GitHub contribution heatmap for MedvAx-AI.](assets/github-contributions.svg)
 
 ![Monthly GitHub contribution totals for MedvAx-AI.](assets/github-monthly.svg)
