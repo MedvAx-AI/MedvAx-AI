@@ -1,6 +1,6 @@
 # Aleksandr Medvedev
 
-**Third-year Applied AI student at Innopolis University · ML systems · LLM evaluation · semantic search**
+**ML systems · LLM evaluation · semantic search**
 
 I build and evaluate ML systems, with an interest in reliable experiments, retrieval, and useful AI applications.
 
