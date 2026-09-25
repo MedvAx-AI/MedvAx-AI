@@ -6,7 +6,7 @@ Building useful AI systems, from reproducible experiments to working application
 <p align="center">
   <a href="https://medvax-ai.github.io/">Portfolio</a> ·
   <a href="https://medvax-ai.github.io/Aleksandr_Medvedev_llm_implementation.pdf">CV (PDF)</a> ·
-  <a href="mailto:medvedguk@gmail.com">Email</a> ·
+  <a href="mailto:medv.ax@outlook.com">Email</a> ·
   <a href="https://orcid.org/0009-0008-9941-4428">ORCID</a>
 </p>
 
@@ -40,4 +40,4 @@ I work on retrieval, model evaluation, and the engineering that makes ML experim
 
 Based in **Innopolis, Russia**. I am interested in ML research, evaluation, retrieval, and applied LLM internships. Remote work is preferred; I am open to discussing relocation.
 
-**Email:** [medvedguk@gmail.com](mailto:medvedguk@gmail.com)
+**Email:** [medv.ax@outlook.com](mailto:medv.ax@outlook.com)
