@@ -5,7 +5,7 @@ Building useful AI systems, from reproducible experiments to working application
 
 <p align="center">
   <a href="https://medvax-ai.github.io/">Portfolio</a> ·
-  <a href="https://medvax-ai.github.io/Aleksandr_Medvedev_llm_implementation.pdf">CV (PDF)</a> ·
+  <a href="https://medvax-ai.github.io/Aleksandr_Medvedev_LLM_AI_Agents.pdf">CV (PDF)</a> ·
   <a href="https://www.kaggle.com/medvax">Kaggle</a> ·
   <a href="mailto:medv.ax@outlook.com">Email</a> ·
   <a href="https://orcid.org/0009-0008-9941-4428">ORCID</a>
