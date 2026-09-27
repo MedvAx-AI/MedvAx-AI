@@ -21,7 +21,7 @@ I study LLM quality through held-out evaluation and build auditable AI services 
 
 - **Modeling & retrieval:** Python, PyTorch, TensorFlow, Hugging Face Transformers, scikit-learn, FAISS
 - **Research methods:** held-out evaluation, leakage-free splits, bootstrap confidence intervals, reproducible experiments
-- **Applications & delivery:** FastAPI, PostgreSQL, DVC, MLflow, Docker, GitHub Actions
+- **Applications & delivery:** FastAPI, PostgreSQL, DVC, MLflow, ClearML, Apache Airflow, Docker, GitHub Actions
 
 ## Selected projects
 
