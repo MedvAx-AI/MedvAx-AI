@@ -38,9 +38,3 @@ I study LLM quality through held-out evaluation and build auditable AI services 
 <img src="assets/github-contributions.svg" alt="Daily GitHub contribution heatmap for MedvAx-AI" width="100%">
 
 <img src="assets/github-monthly.svg" alt="Monthly GitHub contribution totals for MedvAx-AI" width="100%">
-
-## Contact
-
-Based in **Innopolis, Russia**. I am interested in LLM research and AI engineering internships. Remote work is preferred; I am open to on-site opportunities in Moscow and available 30+ hours per week.
-
-**Email:** [medv.ax@outlook.com](mailto:medv.ax@outlook.com)
