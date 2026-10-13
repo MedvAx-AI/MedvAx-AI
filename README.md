@@ -25,10 +25,10 @@ I study LLM quality through held-out evaluation and build auditable AI services 
 
 ## Selected projects
 
-- **[Reliable Image Classification with Confidence Rejection](https://github.com/MedvAx-AI/Reliable-Image-Classification-with-Confidence-Rejection)** — completed a four-person computer vision project on CIFAR-10 classification with confidence-based abstention; implemented a ResNet baseline, calibration and rejection analysis, and evaluation on blurred, noisy, and JPEG-compressed images.
 - **[SemanticSplat](https://beyond-proximity-public.vercel.app/)** — led a four-person research team through a 150-query evaluation across five scenes, with ScanNet and Replica pilots.
 - **[BudgetRoute-LLM](https://github.com/MedvAx-AI/budgetroute-llm)** — compared five Qwen2.5 routing strategies over 1,000 runs on 500 MMLU questions with held-out evaluation; built traceable RAG, abstention, and human review.
 - **[Yacht Resistance MLOps Pipeline](https://github.com/MedvAx-AI/pmldl-yacht-mlops)** — automated DVC, MLflow, FastAPI, and Streamlit delivery with 10 CI tests; held-out R² 0.993 and RMSE 1.28 on five unseen hulls.
+- **[Reliable Image Classification with Confidence Rejection](https://github.com/MedvAx-AI/Reliable-Image-Classification-with-Confidence-Rejection)** — completed a four-person computer vision project on CIFAR-10 classification with confidence-based abstention; implemented a ResNet baseline, calibration and rejection analysis, and evaluation on blurred, noisy, and JPEG-compressed images.
 
 ## GitHub activity
 
